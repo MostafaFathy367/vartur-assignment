@@ -16,11 +16,17 @@ It demonstrates core skills in Vue 3, Vuetify, Pinia, Vue Router, and API integr
 
 ---
 
-## 📸 Features
+## 📸 Screenshots
+<img src="./public/images/loginPage.png" style="width: calc(100% / 3 - 3px)" />
+<img src="./public/images/posts.png" style="width: calc(100% / 3 - 3px)"  />
+<img src="./public/images/users.png" style="width: calc(100% / 3 - 3px)"  />
+
+## ✅ Features
 
 - ✅ **Fake Authentication** using username/password: `admin / admin`
 - ✅ **Protected Routes** using route guards
 - ✅ **State Management** with Pinia (auth, users, posts)
+- ✅ **Authentication state is managed via Pinia and persisted during the session using `sessionStorage`, ensuring protected routes are only accessible while the user is logged in.**
 - ✅ **Navigation Drawer + App Bar** (Vuetify)
 - ✅ **3 Pages**:
   - Home
